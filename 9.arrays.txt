@@ -1,0 +1,39 @@
+ // SPDX-License-Identifier: GPL-3.0
+
+pragma solidity 0.8.0;
+contract Array
+{
+    uint [5] public  Arr =[10,20,30,540];
+}
+```````````````````````````````````````````````````````````
+ // SPDX-License-Identifier: GPL-3.0
+
+pragma solidity 0.8.0;
+contract Array
+{
+    uint [4] public  Arr =[10,20,30,540];
+    function setter (uint index, uint value) public
+
+    {
+        Arr [index]=value ;
+    }
+}
+````````````````````````````````````````````````````````````````````
+ // SPDX-License-Identifier: GPL-3.0
+
+pragma solidity 0.8.0;
+contract Array
+{
+    uint [4] public  Arr =[10,20,30,540];
+    function setter (uint index, uint value) public
+
+    {
+        Arr [index]=value ;
+    }
+    function length () public view returns(uint)
+    {
+        return Arr.length;
+    }
+}
+``````````````````````````````````````````````````````````````````````````````
+1.54.22
